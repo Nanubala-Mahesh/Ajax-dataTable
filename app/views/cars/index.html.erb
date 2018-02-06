@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Cars</h1>
+
+<table id="cars" class="display" data-source="<%= cars_url(format: "json") %>">
+  <thead>
+    <tr>
+      <th>Make</th>
+      <th>Model</th>
+      <th>Year</th>
+      <th>Color</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Car', new_car_path %>
